@@ -1,0 +1,34 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.navigrationbar ul{
+    display: flex;
+    list-style: none;
+}
+.navigrationbar ul li a{
+    text-decoration: none;
+    margin-right: 44px;
+}
+
+.image-sidebar{
+    display: flex;
+}
+.image-sidebar img{
+    margin-right: 16px;
+}
+.banner-section{
+    background: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    padding: 180px;
+    margin-top: 49px;
+}
+    
