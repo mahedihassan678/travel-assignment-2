@@ -7,6 +7,16 @@ body{
     justify-content: space-between;
     margin-top: 50px;
 }
+.nav-menu span {
+ color: #131318;
+font-size: 36px;
+font-weight: 800;
+}
+.nav-menu h2{
+    color: #FF5400;
+font-size: 36px;
+font-weight: 800;
+}
 .navigrationbar ul{
     display: flex;
     list-style: none;
@@ -29,6 +39,170 @@ body{
     border-radius: 16px;
     text-align: center;
     padding: 180px;
-    margin-top: 49px;
+    margin-top: 15px;
 }
-    
+form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 700px;
+    height: 50px;
+    margin-left: 40px;
+}
+   form input{
+    width: 134px;
+   height: 36px;
+   border-radius: 8px;
+   background: #FFF;
+  margin-right: 12px;
+  margin-top: 6px;
+  border: 0;
+  text-align: center;
+   } 
+   .banner-section h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+
+   }
+   .banner-section p{
+    color: #FFF;
+margin-left: 50px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 676px;
+   }
+   form input[type=search] {
+    background: #FF5400;
+   border: 0;
+   }
+   .popular-tourism{
+    display: flex;
+    margin-top: 30px;
+   }
+   .tourism-content h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+   }
+   .tourism-content P {
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+   }
+   .btn-primary{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: 0;
+color: #FFF;
+font-size: 15px;
+font-weight: 800;
+}
+.variety-destination h3{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+} 
+
+.variety-destination p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.about-box{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+width: 573px;
+height: 284px;
+}
+  .about-box img{
+    width: 64px;
+height: 64px;
+  } 
+ .about-us{
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 24px ;
+  }
+ .about-boxes{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 10px;
+}
+  #box-3{
+
+    margin-left: 300px;
+    margin-top: 24px;
+  }
+  .place-info{
+    display: flex;
+  }
+  .place-content{
+    margin-right: 24px;
+  }
+  .place-content h2{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px; 
+  }
+  .place-content p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+  }
+  .Contact-sidebar{
+display: flex;
+justify-content:space-between;
+margin-top: 45px;
+text-align:start;
+  }
+  .contact-form{
+    width: 450px;
+height: 360px;
+background: #FFF;
+border: 2px solid #FF5400 ;
+border-radius: 16px;
+padding: 30px;
+  }
+  .contact-form h4{
+    margin-left: 40px;
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+  }
+  .contact-form p{
+    margin-left: 40px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+  }
+  .contact-form form{
+display: grid;
+grid-template-rows: repeat(3,1fr);
+  }
+  .contact-form input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+margin-top: 30px;
+  }
+  form #btn{
+    background: #FF5400;
+    color: #FFF;
+  }
+.travel-footer{
+   min-width: 1440px;
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+}
