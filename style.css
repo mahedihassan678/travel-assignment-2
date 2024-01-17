@@ -115,6 +115,14 @@ font-weight: 800;
     font-weight: 400;
     line-height: 26px;
 }
+.images{
+  position: relative;
+}
+.title-1{
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
 .about-box{
     border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
@@ -165,6 +173,33 @@ justify-content:space-between;
 margin-top: 45px;
 text-align:start;
   }
+  .sidebar .tag{
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+padding: 20px 30px;
+  }
+.sidebar{
+  position: relative;
+}
+  .sidebar .tag{
+position: absolute;
+bottom: 55px;
+right: 0;
+  }
+  .tag h4{
+    color: #FFF;;
+font-size: 24px;
+font-weight: 400;
+  }
+  .tag h2{
+    color: #FFF;
+font-size: 32px;
+font-weight: 800;
+  }
   .contact-form{
     width: 450px;
 height: 360px;
@@ -201,8 +236,175 @@ margin-top: 30px;
     background: #FF5400;
     color: #FFF;
   }
-.travel-footer{
-   min-width: 1440px;
+footer{
+
 height: 502px;
 background: rgba(19, 19, 24, 0.05);
+margin-top: 70px; 
+text-align: center;
+}
+.travel-footer{
+  padding: 100px 335px;
+}
+.icon span{
+  color: var(--Dark-01, #131318);
+font-size: 32px;
+font-weight: 800;
+}
+.icon h3{
+  color: #FF5400;
+font-size: 32px;
+font-weight: 800;
+}
+.travel-footer p{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+@media screen and (max-width: 600px) {
+.nav-menu .navigrationbar{
+  display: none;
+}
+.banner-section{
+  width: 26%;
+  height: 70%;
+}
+.banner-section h1{
+  font-size: 35px;
+  margin-top: -100px;
+}
+.banner-section p{
+  font-size: 25px;
+  margin-left: -184px;
+}
+
+.banner-section form{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+width: 40%;
+height: 100%;
+}
+form input{
+  width: 250px;
+  height: 40px;
+}
+.popular-tourism{
+  display: flex;
+flex-direction: column;
+}
+.tourism-content h3{
+  margin-left: 60px;
+}
+
+
+.tourism-content p{
+  font-size: 20px;
+  width: 50%;
+  margin-left: 60px;
+}
+.tourism-content button{
+  margin-bottom: 15px;
+  font-size: 20px;
+  margin-left: 60px;
+}
+.tourism-image img{
+margin-left: 60px;
+}
+.variety-destination{
+  width: 50%;
+
+}
+.variety-destination p{
+  font-size: 20px;
+  font-weight: 400;
+}
+.variety-destination .images img{
+  width: 335px;
+  height: 176px;
+  padding: 10px 170px;
+}
+.about-us{
+  width: 50%;
+}
+.about-us h2{
+  color: #131318;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+.about-us p{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px; 
+}
+.about-boxes {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: ;
+}
+.about-boxes .about-box{
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+ .about-box#box-3{
+  margin-left: 44px;
+ }
+.place-info{
+  display: flex;
+  flex-direction: column;
+}
+.place-content h2{
+margin-left: 30px;
+}
+.place-content p{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px; 
+  width: 50%;
+  margin-left: 30px;
+}
+.place-content button{
+  margin-left: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.place-image{
+  margin-left: 30px;
+}
+
+
+.Contact-sidebar{
+  display: flex;
+  flex-direction: column;
+}
+.contact-form{
+margin-left: 60px;
+}
+.sidebar{
+width: 50%;
+margin-top: 30px;
+}
+.sidebar img{
+  width: 90%;
+  margin-left: 60px;
+}
+footer{
+width: 50%;
+margin-left: 30px;
+
+}
+.travel-footer{
+  padding: 0;
+}
+
 }
